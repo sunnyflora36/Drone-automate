@@ -59,7 +59,7 @@ def train_yolov10():
 
     model.train(
         data="drone_data.yaml",
-        epochs=120,
+        epochs=50,
         imgsz=1024,
         batch=4,
         lr0=0.001,
